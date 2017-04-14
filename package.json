@@ -1,0 +1,31 @@
+{
+  "name": "mongoose-find-and-filter",
+  "version": "1.0.0",
+  "description": "Mongoose find method on steroids with filtering and sorting features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "mongodb",
+    "model",
+    "find",
+    "filter",
+    "sort"
+  ],
+  "author": "jozef butko <jbutko@gmail.com> (www.jozefbutko.com)",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbutko/mongoose-find-and-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbutko/mongoose-find-and-filter/issues"
+  },
+  "homepage": "https://github.com/jbutko/mongoose-find-and-filter#mongoose-find-and-filter-plugin",
+  "dependencies": {
+    "mongoose": "^4.9.4"
+  }
+}
