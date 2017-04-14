@@ -112,7 +112,7 @@ User
 Then if you want to query your endpoint send request in one of the following forms:
 ```javascript
 curl http://localhost:5005/api/v1/users // all users will be returned
-curl http://localhost:5005/api/v1/users?username=johndoe
+curl http://localhost:5005/api/v1/users?username=johndoe // only docs with username=johndoe will be returned
 curl http://localhost:5005/api/v1/users?username=johndoe&select=age username // only docs with username=johndoe will be returned and only age and username keys will be selected
 curl http://localhost:5005/api/v1/users?username=johndoe&limit=5 // max 5 docs will be returned
 curl http://localhost:5005/api/v1/users?username=johndoe&sort=_id // only docs with username=johndoe sorted by _id in ASC order will be returned
