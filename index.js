@@ -39,7 +39,7 @@ module.exports = function(schema) {
 
     // prepare query
     for (let param in queryParams) {
-      if (queryOptions.indexOf(param) > -1 && filterAttributes.indexOf(param) > -1)
+      if (filterAttributes.indexOf(param) > -1)
         query[param] = queryParams[param];
 
       // _ids are ObjectIds not a string
